@@ -6,7 +6,7 @@
   + A página consume informações da api(AwesomeAPI).
   + A API atualiza a cada 30 seg, então eu coloquei um setInterval no codigo e a cada 30 seg, ele roda a função de pegar o valor da moeda e atualiza na página.
 
-🌐 
+🌐 https://naugopgomes.github.io/moedas_valor/
 
 
 > Status: Completo ✔️
