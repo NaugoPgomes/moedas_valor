@@ -14,7 +14,6 @@ function pegar_valor_bitcoin()
     {
         var resultado = data.BTCBRL.bid
         valor.innerHTML = `R$ : ${resultado}`
-        console.log(resultado)
     })
 }
 
@@ -29,7 +28,6 @@ function pegar_valor_euro()
     {
         var resultado = data.EURBRL.bid
         valor_euro.innerHTML = `R$ : ${resultado}`
-        console.log(resultado)
     })
 }
 
@@ -44,7 +42,6 @@ function pegar_valor_dollar()
     {
         var resultado = data.USDBRL.bid
         valor_dollar.innerHTML = `R$ : ${resultado}`
-        console.log(resultado)
     })
 }
 

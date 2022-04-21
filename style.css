@@ -7,13 +7,14 @@ body
 {
     display: flex;
     flex-direction: row;
+    height: 500px;
 
 }
 
 .container_foto
 {
     width: 150px;
-    height: 110px;
+    height: 130px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -29,4 +30,46 @@ body
 .container_foto h2
 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    padding: 10px;
+    border-radius: 40px;
+    border-style:groove;
+    border-color: black;
+}
+
+.container_criador
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.container_criador a
+{
+    color: black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container_criador p
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+@media (max-width: 520px)
+{
+    .container 
+    {
+        display: flex;
+        flex-direction: column;
+        height: 860px;
+    }
+
+    .container_foto
+    {
+        margin-top: 130px;
+    }
+
 }
